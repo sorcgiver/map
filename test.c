@@ -22,7 +22,7 @@ void test_int(void)
 {
   printf("test int: start\n");
   bool success = true;
-  const int number = 10;
+  const int number = 10000;
   int success_val[number];
 
   map_t(int) map;
@@ -83,7 +83,7 @@ void test_string(void)
 {
   printf("test string: start\n");
   bool success = true;
-  const int number = 10;
+  const int number = 10000;
   const size_t min_size = 10;
   const size_t max_size = 100;
   char* success_val[number];
