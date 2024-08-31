@@ -1,7 +1,8 @@
+There are errors in the library related to hash function. undefined behavior when matching hash function.
 # map
 A type-safe generic hashmap implementation for C.
 
-## Installation 
+## Installation
 The [map.c](src/map.c?raw=1) and [map.h](src/map.h?raw=1) files can be dropped
 into an existing C project and compiled along with it.
 
@@ -69,7 +70,7 @@ typedef map_t(FILE*) fp_map_t;
 ```
 
 ### map\_init(m)
-Initialises the map, this must be called before the map can be used. 
+Initialises the map, this must be called before the map can be used.
 
 ### map\_deinit(m)
 Deinitialises the map, freeing the memory the map allocated during use;
